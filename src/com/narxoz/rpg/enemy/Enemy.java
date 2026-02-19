@@ -45,4 +45,3 @@ public abstract class Enemy implements Cloneable {
     public abstract void displayInfo();
 }
 
-}
