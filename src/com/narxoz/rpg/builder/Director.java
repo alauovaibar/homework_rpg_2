@@ -20,4 +20,12 @@ public class Director {
                 .applyTheme(factory)
                 .build();
     }
+    public Enemy constructDragon(BossBuilder bossBuilder, EnemyComponentFactory iceFactory) {
+        return bossBuilder
+                .setName("Elder Ice Dragon")
+                .setStats(50000, 500, 200, 50)
+                .setDragonSpecs("ICE", true)
+                .applyTheme(iceFactory)
+                .build();
+    }
 }
