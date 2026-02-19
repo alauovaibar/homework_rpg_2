@@ -8,4 +8,6 @@ public interface EnemyBuilder {
     EnemyBuilder setStats(int hp, int dmg, int def, int spd);
     EnemyBuilder applyTheme(EnemyComponentFactory factory);
     Enemy build();
+
+    BossBuilder setDragonSpecs(String ancient, boolean b);
 }
